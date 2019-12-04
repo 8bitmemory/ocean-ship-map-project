@@ -1,7 +1,7 @@
 # Ocean Ships Map
 [![Ocean-Maps.png](https://i.postimg.cc/GhqZ1W0Y/Ocean-Maps.png)](https://postimg.cc/6y4Hr1p5)
 
-This project maps ship longitude and latitude coordinates to a google map and represents ships with red lines. The ships can be filtered by their MMSI(Maritime Mobile Service Identity). You can submit an MMSI number and only that ship marker will appear. If none is specified, it will default to all MMSI showing at once.
+This project maps ship longitude and latitude coordinates to a google map and represents ships with red lines. The ships can be filtered by their MMSI(Maritime Mobile Service Identity). You can submit an MMSI number and only that ship marker will appear. If none is specified, it will default to all MMSI showing at once. A long red line ships a ships change in position.
 
 ## Installation for OceanShipBackend
 Approach 1.
