@@ -1,11 +1,11 @@
 # Ocean Ships Map
 [![Ocean-Maps.png](https://i.postimg.cc/GhqZ1W0Y/Ocean-Maps.png)](https://postimg.cc/6y4Hr1p5)
 
-This project maps ship longitude and latitude coordinates to a google map and represents ships with red lines. The ships can be filtered by their MMSI(Maritime Mobile Service Identity). You can submit an MMSI number and only that ship marker will appear. If none is specified, it will default to all MMSI showing at once. A long red line ships a ships change in position.
+This project maps ship longitude and latitude coordinates to a google map and represents ships with red lines. The ships can be filtered by their MMSI(Maritime Mobile Service Identity). You can submit an MMSI number and only that ship marker will appear. If none is specified, it will default to all MMSI showing at once.
 
 ## Installation for OceanShipBackend
 Approach 1.
-since the project dependencies are containerized you may just run the script below. Note: you need to install the OceanShipClient dependencies before dockerBoodstrap script can work properly.
+since the project dependencies are containerized you may just run the script below. Note: you need to install the OceanShipClient dependencies before dockerBoodstrap script can work properly and you need docker installed on your machine.
 
 ```bash
 ./dockerBootstrap.sh
@@ -36,6 +36,12 @@ npm install
 After the node_modules have been installed. You may run the dockerBootstrap.sh script to easily execute the front end and Back end.
 ```bash
 ./dockerBootstrap.sh
+```
+## Clean up
+Don't forget to shut down your Docker containers by using the command below.
+
+```bash
+docker stop [name of container]
 ```
 
 ## Usage
